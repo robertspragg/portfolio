@@ -8,7 +8,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 <style>
-/* http://spencersnyder.io/blog/2017/06/10/CSS-Timeline */  
+/* http://spencersnyder.io/blog/2017/06/10/CSS-Timeline */ 
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_timeline */
 /** timeline box structure **/
 
 body {
@@ -37,7 +38,7 @@ body {
     margin-left: -3px;
 }
 
-/* Container around content */
+/* Containers around content */
 .timeline-item-left {
     padding: 10px 40px;
     position: relative;
@@ -66,8 +67,7 @@ body {
     margin-left: -.75rem;
     z-index:1;
 }
-  
-/* The circles on the timeline */
+
 .timeline-item-right::after {
     content: "";
     position: absolute;
@@ -142,12 +142,11 @@ body {
         <div class="col-12">
           <div class="timeline">
             <div class="timeline-item-left">
-            <!-- Timeline Content Here -->
-              <span></span>
               <div class="col-md-6 text-right p-5">
                 <h3>HEADER CONTENT</h3>
                 Lorem ipsum dolor sit amet, consectetur fdfadfdsfdasf tur adipiscing elit. Nunc gravida accumsan laoreet. Donec facilisis condimentum pharetra. Phasellus enim m
               </div>
+            </div>
             <div class="timeline-item-right">
             <!-- Next timeline Content Here -->
                <span></span>
@@ -155,6 +154,13 @@ body {
                  <h3>HEADER CONTENT</h3>
                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida accumsan laoreet. Donec facilisis condimentum pharetra. Phasellus enim mi, elementum ac sagittis eu, consequat sed tellus. Nunc consectetur ornare aliquet. Praesent vel dui a erat sollicitudin viverra eu tempor ipsum. Etiam eget blandit metus, quis cursus augue. Fusce leo justo, lobortis blandit laoreet vitae, porttitor ac nunc. Quisque et tincidunt neque. Nulla facilisis vehicula rhoncus. Mauris at varius lectus, vel feugiat mi. Sed ac mi feugiat felis condimentum elementum.
                </div>
+            </div>
+            
+            <div class="timeline-item-left">
+              <div class="col-md-6 text-right p-5">
+                <h3>HEADER CONTENT</h3>
+                Test 
+              </div>
             </div>
           </div>
         </div>
