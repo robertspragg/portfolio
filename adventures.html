@@ -60,15 +60,22 @@ body {
     margin-left: -.75rem;
     z-index:1;
 }
+  
 /* Responsive */  
 @media all and (max-width: 600px) {
   /* Place the timelime to the right */
   .timeline::after {
   left: 31px;
   }
-  /* Full-width containers */
+  /* Circles move over */
   .timeline-item::after {
-  left: 31px;
+  left: 31px;   
+  }
+  /* Full-width containers */
+  .timeline-item {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
   }
 }
 
