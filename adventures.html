@@ -14,7 +14,7 @@
 body {
     background-color: gainsboro;
     /*font-family: Helvetica, sans-serif;*/
-    border: 10px solid aqua;
+    border: 10px solid lavender;
     border-top: none;
 }
 
@@ -35,6 +35,25 @@ body {
     bottom: 0;
     left: 50%;
     margin-left: -3px;
+}
+  
+.timeline-item {
+    // set position and pad
+    position: relative;
+    // small grey circles
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      width: 1rem;
+      height: 1rem;
+      border: solid 3px grey;
+      border-radius: 50%;
+      background-color: grey;
+      left: 50%;
+      top: .5rem;
+      margin-left: -.5rem;
+    }  
 }
   
 /* Container around content */
